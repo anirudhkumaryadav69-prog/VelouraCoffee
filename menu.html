@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Menu | Veloura Coffee</title>
+  <meta name="description" content="Explore Veloura Coffee's espresso, milk coffee, cold coffee, and signature drinks.">
+  <meta name="theme-color" content="#211713">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page menu-page">
+  <div class="site-shell">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="wordmark" href="index.html" aria-label="Veloura Coffee home">VEL<span>0</span>URA</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span><span class="visually-hidden">Open navigation</span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a><a class="active" href="menu.html">Menu</a>
+        <a href="specials.html">Specials</a><a href="story.html">Our Story</a>
+        <a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <main class="menu-main">
+      <section class="menu-hero" aria-labelledby="menu-title">
+        <div class="menu-bean-field" aria-hidden="true">
+          <i class="menu-bean bean-one"></i><i class="menu-bean bean-two"></i>
+          <i class="menu-bean bean-three"></i><i class="menu-bean bean-four"></i>
+          <i class="menu-bean bean-five"></i><i class="menu-bean bean-six"></i>
+          <i class="menu-bean bean-seven"></i>
+        </div>
+        <p class="eyebrow">Veloura Coffee <span></span> The daily ritual</p>
+        <h1 id="menu-title">THE MENU</h1>
+        <p>Crafted slowly. Served beautifully.</p>
+      </section>
+
+      <section class="menu-catalog" aria-label="Coffee menu">
+        <div class="menu-filters" role="group" aria-label="Filter coffee menu">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-filter="espresso" aria-pressed="false">Espresso</button>
+          <button class="filter-button" type="button" data-filter="milk-coffee" aria-pressed="false">Milk Coffee</button>
+          <button class="filter-button" type="button" data-filter="cold-coffee" aria-pressed="false">Cold Coffee</button>
+          <button class="filter-button" type="button" data-filter="signature" aria-pressed="false">Signature</button>
+        </div>
+
+        <div class="menu-category" data-category-section="espresso">
+          <div class="category-heading"><span>01</span><h2>Espresso</h2><p>Small, concentrated, and quietly complex.</p></div>
+          <div class="coffee-grid">
+            <article class="coffee-card" data-category="espresso"><div class="coffee-image image-espresso"><span>Veloura house roast</span></div><div class="coffee-card-body"><div><h3>Espresso</h3><p>Dark chocolate, toasted almond, and a long caramel finish.</p></div><strong>₹180</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="espresso"><div class="coffee-image image-double"><span>Two slow pulls</span></div><div class="coffee-card-body"><div><h3>Double Espresso</h3><p>A fuller expression of our house blend with molasses sweetness.</p></div><strong>₹220</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="espresso"><div class="coffee-image image-americano"><span>Hot water / rich crema</span></div><div class="coffee-card-body"><div><h3>Americano</h3><p>Espresso opened with hot water for a clean, aromatic cup.</p></div><strong>₹190</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+          </div>
+        </div>
+
+        <div class="menu-category" data-category-section="milk-coffee">
+          <div class="category-heading"><span>02</span><h2>Milk Coffee</h2><p>Silky texture, balanced sweetness, warm comfort.</p></div>
+          <div class="coffee-grid">
+            <article class="coffee-card" data-category="milk-coffee"><div class="coffee-image image-cappuccino"><span>Velvet foam</span></div><div class="coffee-card-body"><div><h3>Cappuccino</h3><p>Double espresso beneath soft, airy milk and a dusting of cocoa.</p></div><strong>₹220</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="milk-coffee"><div class="coffee-image image-latte"><span>Silky steamed milk</span></div><div class="coffee-card-body"><div><h3>Cafe Latte</h3><p>Velvety steamed milk, espresso, and a gentle caramel sweetness.</p></div><strong>₹230</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="milk-coffee"><div class="coffee-image image-flat-white"><span>Fine microfoam</span></div><div class="coffee-card-body"><div><h3>Flat White</h3><p>Intense espresso softened by a precise layer of fine microfoam.</p></div><strong>₹220</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="milk-coffee"><div class="coffee-image image-mocha"><span>Dark chocolate</span></div><div class="coffee-card-body"><div><h3>Mocha</h3><p>House espresso, bittersweet chocolate, and steamed milk.</p></div><strong>₹250</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+          </div>
+        </div>
+
+        <div class="menu-category" data-category-section="cold-coffee">
+          <div class="category-heading"><span>03</span><h2>Cold Coffee</h2><p>Bright, refreshing, and brewed with patience.</p></div>
+          <div class="coffee-grid">
+            <article class="coffee-card" data-category="cold-coffee"><div class="coffee-image image-cold-brew"><span>18 hour steep</span></div><div class="coffee-card-body"><div><h3>Cold Brew</h3><p>Slow-steeped for eighteen hours with cocoa and a soft finish.</p></div><strong>₹220</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="cold-coffee"><div class="coffee-image image-iced-latte"><span>Over ice</span></div><div class="coffee-card-body"><div><h3>Iced Latte</h3><p>Chilled espresso and cold milk poured over clear, slow-melting ice.</p></div><strong>₹230</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="cold-coffee"><div class="coffee-image image-iced-mocha"><span>Chocolate / espresso</span></div><div class="coffee-card-body"><div><h3>Iced Mocha</h3><p>Cold milk, dark chocolate, and espresso finished with cream.</p></div><strong>₹260</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="cold-coffee"><div class="coffee-image image-affogato"><span>Espresso over gelato</span></div><div class="coffee-card-body"><div><h3>Affogato</h3><p>Vanilla bean gelato drowned in a freshly pulled espresso.</p></div><strong>₹280</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+          </div>
+        </div>
+
+        <div class="menu-category" data-category-section="signature">
+          <div class="category-heading"><span>04</span><h2>Signature</h2><p>Veloura originals for a little more wonder.</p></div>
+          <div class="coffee-grid">
+            <article class="coffee-card" data-category="signature"><div class="coffee-image image-cloud"><span>Caramel / sea salt</span></div><div class="coffee-card-body"><div><h3>Caramel Cloud Latte</h3><p>Caramel espresso crowned with a soft, salted cloud of foam.</p></div><strong>₹290</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="signature"><div class="coffee-image image-midnight"><span>Dark chocolate / cream</span></div><div class="coffee-card-body"><div><h3>Midnight Mocha</h3><p>Bold espresso and 72% dark chocolate beneath a cool cream cap.</p></div><strong>₹290</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="signature"><div class="coffee-image image-cinnamon"><span>Vanilla / cinnamon</span></div><div class="coffee-card-body"><div><h3>Vanilla Cinnamon Cappuccino</h3><p>Madagascar vanilla, warm cinnamon, and a generous velvet foam.</p></div><strong>₹270</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+            <article class="coffee-card" data-category="signature"><div class="coffee-image image-brown-sugar"><span>Brown sugar / cream</span></div><div class="coffee-card-body"><div><h3>Brown Sugar Cream Latte</h3><p>Roasted brown sugar folded through espresso and silky cold cream.</p></div><strong>₹280</strong><button class="selection-button" type="button">Add to selection</button></div></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><a class="wordmark" href="index.html">VEL<span>0</span>URA</a><p>Where Every Pour Tells a Story.</p></div>
+      <div class="footer-column"><p class="footer-label">Quick links</p><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="specials.html">Specials</a><a href="story.html">Our Story</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+      <div class="footer-column"><p class="footer-label">Opening hours</p><p>Monday - Friday<br>7:00 AM - 10:00 PM</p><p>Saturday - Sunday<br>8:00 AM - 11:00 PM</p></div>
+      <div class="footer-column"><p class="footer-label">Follow along</p><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook ↗</a></div>
+    </footer>
+  </div>
+  <div class="selection-toast" role="status" aria-live="polite"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
