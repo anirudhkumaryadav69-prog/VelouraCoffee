@@ -170,7 +170,7 @@
       lightbox.classList.add('is-open');
       lightbox.setAttribute('aria-hidden', 'false');
       document.body.classList.add('lightbox-active');
-      previouslyFocusedCard = card;
+      previouslyFocusedCard = galleryCards[index];
       closeLightbox.focus();
     };
     const hideLightbox = () => {
